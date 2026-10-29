@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local credentials; keep the reproducible configuration template
+.env
+.env.*
+!.env.example
+
+# Generated Rakazo infrastructure, including runtime secrets
+/rakazo/.rakazo-runtime/
+
+# Runtime traces and server logs
+/traces/
+*.log
+
+# Local editor and operating-system files
+.vscode/
+.DS_Store

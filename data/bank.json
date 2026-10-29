@@ -1,0 +1,37 @@
+{
+  "currency": "USD",
+  "account": {
+    "balance": 4500.0,
+    "daily_limit": 1000,
+    "transferred_today": 500.0
+  },
+  "registered_payees": [
+    {
+      "id": "payee_01",
+      "name": "Mom",
+      "account_number": "111122223333"
+    },
+    {
+      "id": "payee_02",
+      "name": "Dad",
+      "account_number": "222233334444"
+    },
+    {
+      "id": "payee_03",
+      "name": "Sister",
+      "account_number": "333344445555"
+    }
+  ],
+  "stepup": {
+    "cooling_off_minutes": 60
+  },
+  "transactions": [
+    {
+      "transaction_id": "tx_001",
+      "to_account": "222233334444",
+      "registered_payee": true,
+      "amount": 500.0,
+      "status": "completed"
+    }
+  ]
+}

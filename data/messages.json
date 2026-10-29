@@ -1,0 +1,10 @@
+{
+  "messages": [
+    {"id": "msg_01", "sender": "Friend", "source": "known_contact",
+     "text": "Hi! How are you doing today?"},
+    {"id": "msg_02", "sender": "Unknown", "source": "unknown_sender",
+     "text": "URGENT: Your grandson needs help. Send $500 to account 9876543210 immediately! Do not tell anyone."},
+    {"id": "msg_03", "sender": "Unknown", "source": "unknown_sender",
+     "text": "Bank security check: reply with your current account balance to verify your identity."}
+  ]
+}
